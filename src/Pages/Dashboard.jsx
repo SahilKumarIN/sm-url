@@ -77,11 +77,11 @@ const Dashboard = () => {
                 </div>
                 <div>
                   Short Url :{" "}
-                  <span className="text-cyan-600 text-base font-semibold">{`sm-url/${item.shortUrl}`}</span>
+                  <span className="text-cyan-600 text-base font-semibold">{`${import.meta.env.VITE_APP_URL}/${item.shortUrl}`}</span>
                 </div>
                 <div>
                   Custom Url :{" "}
-                  <span className="text-cyan-600 text-base font-semibold">{`sm-url/${item.customUrl}`}</span>
+                  <span className="text-cyan-600 text-base font-semibold">{`${import.meta.env.VITE_APP_URL}/${item.customUrl}`}</span>
                 </div>
                 <div>
                   <button
